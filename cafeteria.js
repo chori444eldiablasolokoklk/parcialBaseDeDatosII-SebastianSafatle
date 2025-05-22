@@ -1,5 +1,6 @@
 // 1) Crear la base de datos y la colección
-use cafeteria;
+const db = connect("mongodb://localhost:27017/cafeteria");
+
 
 db.cafes.drop();
 
